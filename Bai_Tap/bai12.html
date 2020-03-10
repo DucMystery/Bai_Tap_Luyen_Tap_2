@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 12</title>
+</head>
+<body>
+  <script>
+      let mfirst= parseInt(prompt("Mời Nhập số tiền vay:"));
+      let month = parseInt(prompt("Số Tháng bạn muốn vay:"));
+      let m = parseFloat(prompt("Nhập lãi suất :"));
+      let t=0;
+      if (m<0|| mfirst<=0||month<=0){
+          alert("Nhập lại thông số!");
+      }else {
+          t=mfirst*month*m;
+          document.write("Sô tiền lãi bạn phải đóng: "+ t);
+      }
+  </script>
+</body>
+</html>

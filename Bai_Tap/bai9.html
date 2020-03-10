@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 9</title>
+</head>
+<body>
+   <script>
+       let a= parseInt(prompt("Mời Nhập vào a:"));
+       let b= parseInt(prompt("Mời Nhập vào b:"));
+       let c= parseInt(prompt("Mời Nhập vào c:"));
+       if(a<0 && b<0 && c<0){
+           document.write("Lỗi!");
+       }else {
+           if(a+b>c && a+c>b && b+c >a){
+               document.write("Ba cạnh vừa nhập là một cạnh của tam giác");
+           }else {
+               document.write("Không phải là một cạnh của tam giác.");
+           }
+       }
+   </script>
+</body>
+</html>

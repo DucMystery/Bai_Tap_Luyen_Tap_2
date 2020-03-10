@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 11</title>
+</head>
+<body>
+  <script>
+      let m = parseInt(prompt("Mời Nhập vào Thu nhập hàng tháng của bạn: "));
+      let t = 0;
+      if (m>=18 && m<32){
+          t=m*2/10;
+          document.write(t);
+      }else
+      if (m>=10 && m<18){
+          t=m*15/100;
+          document.write(t);
+      }else
+      if (m>5 && m<10){
+          t=m*1/10;
+          document.write(t);
+      }else
+      if (m>=18 && m<32){
+          t=m*2/10;
+          document.write(t);
+      }else {
+          document.write("nằm ngoài tầm hiểu biết!");
+      }
+  </script>
+</body>
+</html>

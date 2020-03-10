@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+  <script>
+      let a= parseFloat(prompt("mời nhập vào a:"));
+      let b= parseFloat(prompt("mời nhập vào b:"));
+      let c= parseFloat(prompt("mời nhập vào c:"));
+      let delta =b*b-4*a*c;
+      if (delta<0){
+          document.write("PT vô nghiệm");
+      }else if (delta>0){
+          let x1=(-b + math.sqrt(delta))/2*a;
+          let x2=(-b - math.sqrt(delta))/2*a;
+          document.write(x1 + " "+x2);
+      }else {
+          let x =-b/2*a;
+          document.write(x);
+      }
+  </script>
+</body>
+</html>
